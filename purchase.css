@@ -1,0 +1,85 @@
+nav {
+    background-color: #d8d8d8;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(11, 11, 11);
+}
+nav a:hover{
+    color: rgb(0, 2, 6);
+    font-size: x-large;
+	text-shadow: #8b8a8a 2px 2px;
+}
+#form1{
+    background-image: url("purchasephoto.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.form6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+    min-height: 350px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #faf8f8f6;
+}
+.form6 h1{
+	background: #d2d1cf;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #1a1515;
+	margin: -16px -16px 16px -16px;
+}
+.form6 input[type="text"],
+.form6 input[type="email"],
+.form6 textarea,
+.form6 select 
+{
+	
+	outline: none;
+	box-sizing: border-box;
+	width: 100%;
+	background: #dadada;
+	margin-bottom: 4%;
+	border: 2px solid #cfcfcf;
+    border-radius: 3px;
+	padding: 3%;
+	color: #898686;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form6 input[type="text"]:focus,
+.form6 input[type="email"]:focus,
+.form6 textarea:focus,
+.form6 select:focus
+{
+	box-shadow: 0 0 7px #999a9a;
+	padding: 3%;
+	border: 1px solid #e6882f;
+}
+
+button{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #63a797;
+    border-top: 2px solid #428473;
+	border-bottom: 2px solid #428473;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #f9f7f7;
+    font-size: x-large;
+}
+button:hover{
+	background: #2ce8b6;
+}
